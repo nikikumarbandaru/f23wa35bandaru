@@ -9,7 +9,6 @@ router.get('/', function(req, res, next) {
   var y=Math.cos(x)
   var output= ('Math.cos()'+' applied to ' +x+' is '+y)
   res.render('bonus', { response: output });
-  res.send(response)
 });
 
 module.exports = router;
